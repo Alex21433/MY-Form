@@ -1,0 +1,28 @@
+.form-content {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    grid-template-rows: 5fr 200px 300px 100px;
+    background-color: aqua;
+    height: 900px;
+}
+.form-content-one {
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px solid black;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.col {
+    padding: 5px;
+}
+
+.form-floating {
+    margin-top: 5px;
+}
+.form-control {
+  resize: none;
+  margin-bottom: 5px;
+}
